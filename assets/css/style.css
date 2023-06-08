@@ -55,10 +55,20 @@ a {
 }
 
 /*======= HEADER ========*/
-.header {
+.fixed-header{
+    background-color: #e6f0ff;
+    padding-top: 26px;
+    position: sticky; /* cho dính phần navbar*/
+    top: -26px;  /* cho dính phần navbar*/
+    z-index: 1;  /* cho dính phần navbar*/
+}
+.hero-wrap {
     position: relative;
+    display: flex;
+    flex-direction: column;
     background: #e6f0ff;
     height: 100vh;
+
 }
 
 .navbar {
@@ -66,7 +76,8 @@ a {
     /* len cung hang*/
     align-items: center;
     /* cho thang 1 hang*/
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
