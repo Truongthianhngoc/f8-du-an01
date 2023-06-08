@@ -637,6 +637,11 @@ a {
     /* can giua*/
     width: 28px;
     height: 28px;
+    background: #f9f9f9;
+}
+
+.footer .link+.link { /*tác động từ cái thứ 2*/
+    margin-left: 16px;
 }
 
 .footer .link:hover {
